@@ -14,7 +14,5 @@ Here's we will create a CLI(Command Line Interface) program to solve our Sudoku 
 This Sudoku Solver CLI Program will take unsolved puzzle(input) as string and produces solved puzzle(output) as matrix of 3x3.
 
  Puzzle string must be like this  ;
- 
  1-58-2----9--764-52--4--819-19--73-6762-83-9-----61-5---76---3-43--2-5-16--3-89--
- 
  Here "-" represents "0" or empty cell.
