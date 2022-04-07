@@ -1,6 +1,6 @@
-// Puzzle string must be like this ;
-// 1-58-2----9--764-52--4--819-19--73-6762-83-9-----61-5---76---3-43--2-5-16--3-89--
-// Here "-" represents "0" or empty cell.
+/* Puzzle string must be like this ;
+ 1-58-2----9--764-52--4--819-19--73-6762-83-9-----61-5---76---3-43--2-5-16--3-89--
+ Here "-" represents "0" or empty cell. */
 
 // Creates CLI so that we can enter our puzzle string.
 const readline = require('readline').createInterface({
@@ -10,8 +10,9 @@ const readline = require('readline').createInterface({
   
   readline.question(``, string => {
     var problemString =`${string}`;
-var num = [];
+
 // To convert string into nos num[] and swipe -(hipen) to 0
+var num = [];
 for (var i = 0; i < problemString.length; i++) {
   if (problemString.charAt(i) !== "-") num[i] = problemString.charAt(i);
   else num[i] = ".";
