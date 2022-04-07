@@ -8,11 +8,11 @@ What is Sudoku Solver ?
 In simple language, Sudoku Solver is basically a code that takes unsolved puzzle as input and produces output as solved puzzle mathematically.
 
 What is CLI ?
-CLI(Command Line Interface)
+A command-line interface (CLI) processes commands to a computer program in the form of lines of text. The program which handles the interface is called a Command Line Interpreter.
 
 Here's we will create a CLI(Command Line Interface) program to solve our Sudoku puzzle.s You need to Install Nodejs first to use this Sudoku Solver CLI Program. You can Use this CLI program in VS Code, Git Bash, and many more.
 This Sudoku Solver CLI Program will take unsolved puzzle(input) as string and produces solved puzzle(output) as matrix of 3x3.
 
-// Puzzle string must be like this ;
-// 1-58-2----9--764-52--4--819-19--73-6762-83-9-----61-5---76---3-43--2-5-16--3-89--
-// Here "-" represents "0" or empty cell.
+ Puzzle string must be like this ;
+ 1-58-2----9--764-52--4--819-19--73-6762-83-9-----61-5---76---3-43--2-5-16--3-89--
+ Here "-" represents "0" or empty cell.
